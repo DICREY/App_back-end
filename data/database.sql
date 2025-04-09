@@ -1,0 +1,8 @@
+DROP DATABASE IF EXISTS app_vet;
+CREATE DATABASE IF NOT EXISTS app_vet;
+
+CREATE TABLE app_vet.users(
+    id_usu INT AUTO_INCREMENT PRIMARY KEY,
+    ema_usu VARCHAR(100) NOT NULL,
+    pas_usu VARCHAR(100) NOT NULL
+);
